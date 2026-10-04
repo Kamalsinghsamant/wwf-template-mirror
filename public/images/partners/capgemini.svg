@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <!-- Capgemini Spade Emblem -->
+  <g transform="translate(10, 10)">
+    <path d="M20 2 C13 10, 5 18, 5 25 C5 31, 9 35, 15 35 C17 35, 19 34, 20 32 C20 35, 17 38, 14 38 L26 38 C23 38, 20 35, 20 32 C21 34, 23 35, 25 35 C31 35, 35 31, 35 25 C35 18, 27 10, 20 2 Z" fill="#0070ad" />
+  </g>
+  <!-- Capgemini Text -->
+  <text x="56" y="37" font-family="'Open Sans', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#002b49" letter-spacing="-0.3">Capgemini</text>
+</svg>

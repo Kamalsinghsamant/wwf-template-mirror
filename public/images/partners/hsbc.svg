@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <!-- HSBC Hexagon Symbol -->
+  <g transform="translate(10, 10)">
+    <!-- Central white square equivalent -->
+    <polygon points="20,0 20,40 40,20" fill="#db0011" />
+    <polygon points="20,0 20,40 0,20" fill="#db0011" />
+    <polygon points="0,0 0,40 20,20" fill="#ffffff" />
+    <polygon points="40,0 40,40 20,20" fill="#ffffff" />
+    <polygon points="0,0 40,0 20,20" fill="#db0011" />
+    <polygon points="0,40 40,40 20,20" fill="#db0011" />
+  </g>
+  <!-- HSBC Text -->
+  <text x="70" y="38" font-family="'Open Sans', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800" fill="#111111" letter-spacing="1">HSBC</text>
+  <text x="160" y="38" font-family="'Open Sans', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#666666" letter-spacing="0.5">India</text>
+</svg>

@@ -1,0 +1,895 @@
+{
+    "status": "success",
+    "data": {
+        "orgDetails": {
+            "customCampaign": {
+                "template": "template-campaign-one",
+                "isActive": true
+            },
+            "forms_data": {
+                "form_data": [],
+                "calendar_form_data": []
+            },
+            "google_oauth": {
+                "is_active": true
+            },
+            "_id": "6a8cecb7ab114b5204d35207",
+            "enterprise_id": "60663719631236549b442afa",
+            "user_id": "634e66e23aea55f1d10a4040",
+            "organization_url": "world-wide-fund-for-nature--india",
+            "organization_name": "World Wide Fund For Nature- India",
+            "organization_logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/organization-logos/cfa1b471-c8eb-4222-bf1c-e2f95148ded4_thumbnail_gvg.jpg",
+            "initiative_title": "Our Initiatives",
+            "donate_button": {
+                "donate_button_text": "",
+                "donate_button_check": true
+            },
+            "navbar_donate_button": {
+                "donate_button_text": "donate now",
+                "donate_button_check": true
+            },
+            "donate_button_color": {
+                "text_color": "#000000",
+                "background_color": "#d5a916"
+            },
+            "program_page": true,
+            "is_white_listed": true,
+            "login_background_image": {
+                "is_enabled": true,
+                "image_url": ""
+            },
+            "want_to_changemaker": {
+                "is_enabled": true,
+                "heading": "",
+                "description": "",
+                "button_text": "",
+                "icons": {
+                    "create_campaign": {
+                        "is_enabled": true,
+                        "heading": "",
+                        "description": ""
+                    },
+                    "approval": {
+                        "is_enabled": true,
+                        "heading": "",
+                        "description": ""
+                    },
+                    "share": {
+                        "is_enabled": true,
+                        "heading": "",
+                        "description": ""
+                    }
+                }
+            },
+            "program_page_limit": 3,
+            "organization_header_images": [],
+            "organization_header_images_v2": [
+                {
+                    "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/RECIPT_PREFIX/organization-header/18da0164-aef0-4c8b-b935-024cb72f3c86_original_b3.webp",
+                    "title": "Every landscape has room for both of us",
+                    "subtitle": "Where people and wildlife thrive!",
+                    "description": "",
+                    "text": "From the Terai Arc to the Sundarbans, we protect the landscapes where India's wildlife and its people share the same ground."
+                },
+                {
+                    "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/RECIPT_PREFIX/organization-header/a3586d0e-496a-4fc4-857a-7eac0197c9a6_original_pexels-arunangshu-mukherjee-269809262-13609493.webp",
+                    "title": "Count butterflies, help conservation take wing!",
+                    "subtitle": "Big Butterfly Month 2026",
+                    "description": "",
+                    "text": "From 1 September, join citizen scientists in West Bengal, the North-East, Madhya Pradesh and Chhattisgarh to record India's butterflies."
+                },
+                {
+                    "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/RECIPT_PREFIX/organization-header/ee9ff2f8-15b9-4f82-906d-2855897528e2_original_pexels-pkddapacific-103875.webp",
+                    "title": "Three decades of bringing the hills back!",
+                    "subtitle": "Thirty years of restoration",
+                    "description": "",
+                    "text": "In the Darjeeling and Kalimpong hills, communities have spent three decades restoring degraded slopes. Your support keeps that work growing."
+                }
+            ],
+            "display_organization_showpage_analytics": true,
+            "display_homepage_header": true,
+            "payment_endpoint_response": {
+                "is_enabled": false,
+                "payment_endpoint_url": "",
+                "response_share_status": "",
+                "response_share_count": 0,
+                "last_response_time": "",
+                "redirect_link": ""
+            },
+            "case_study_limit": 3,
+            "organization_video": {
+                "name": "",
+                "url": "",
+                "check": false
+            },
+            "short_url": "6xcicnj98u2",
+            "organization_country": "India",
+            "organization_about": "Established on 27 November 1969, WWF-India was founded with a bold vision to protect the country’s wildlife and natural habitats.",
+            "organization_categories": [
+                {
+                    "_id": "609157d258bbf7228d3debe2",
+                    "slug": "Animal_Safety",
+                    "name": "Animal Safety",
+                    "unsdgs": [
+                        {
+                            "unsdg_image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/assets/crowdera-unsdg/E-WEB-Goal-15.png",
+                            "unsdg_number": 15,
+                            "unsdg": "Life on Land"
+                        }
+                    ]
+                },
+                {
+                    "_id": "609157e158bbf7228d3debe3",
+                    "slug": "Environment",
+                    "name": "Planet & Environment",
+                    "unsdgs": [
+                        {
+                            "unsdg_image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/assets/crowdera-unsdg/E-WEB-Goal-13.png",
+                            "unsdg_number": 13,
+                            "unsdg": "Climate Action"
+                        }
+                    ]
+                }
+            ],
+            "organization_header_image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/assets/header-image.jpeg",
+            "organization_type": "ngo",
+            "organization_story": "<p></p>",
+            "organization_registered_type": "Trust",
+            "organization_registeration_number": "E-4352 (Mumbai)",
+            "organization_website": "",
+            "organization_facebook": "https://www.facebook.com/wwfindia",
+            "organization_linkedin": "https://www.linkedin.com/company/wwf-india",
+            "organization_twitter": "https://x.com/wwfindia",
+            "organization_instagram": "https://www.instagram.com/wwfindia",
+            "organization_registered_at": "1970-09-08",
+            "organization_expire_at": "",
+            "organization_has_expire_date": "",
+            "organization_pan_card": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/organization_pan_card/1c6de521-7e0f-4d3a-9686-f8502208c658_thumbnail_fhc.png",
+            "organization_pan_card_number": "AAATW0356P",
+            "organization_donation_receipt_number": "WWFI-671-2026-0001",
+            "organization_email": "donate@wwfindia.net",
+            "organization_phone": "911141504814",
+            "organization_status_of_organization": "",
+            "organization_is_tax_exemption": true,
+            "organization_exemption_percentage": "50%",
+            "organization_80g_check": true,
+            "organization_80g_number": "AAATW0356PF19783",
+            "organization_80ccc_check": false,
+            "bank_id": "6a8cecb8ab114b5204d3521e",
+            "organization_80ccc_number": "",
+            "organization_80gga_check": false,
+            "organization_80gga_number": "",
+            "organization_80u_check": false,
+            "organization_80u_number": "",
+            "organization_35ac_check": false,
+            "organization_35ac_number": "",
+            "organization_35aca_check": false,
+            "organization_35aca_number": "",
+            "organization_35acb_check": false,
+            "organization_35acb_number": "",
+            "organization_digital_signature": "",
+            "organization_fcra_check": true,
+            "organization_fcra_number": "231660074",
+            "organization_fcra_registration_date": "2023-11-07",
+            "organization_address_line_1": "Pirojsha Godrej National Conservation Centre, 172 B",
+            "organization_address_line_2": "Max Mueller Marg, Lodi Estate, New Delhi-110 003",
+            "organization_city": "Delhi",
+            "organization_reasons": [],
+            "organization_is_partner": false,
+            "is_instant_disbusrement": false,
+            "default_payment_gateway": "razorpay",
+            "transaction_fee": 3.75,
+            "service_fee": 0,
+            "raised": 0,
+            "tax_receipt_compulsory": false,
+            "organization_status": "ACTIVE",
+            "is_international": false,
+            "is_international_tax_receipt": false,
+            "is_tcfus": false,
+            "is_connect_wepay_international": false,
+            "send_tax_receipt": true,
+            "paypal_onboarding": {
+                "is_paypal_onboarded": false,
+                "paypal_merchant_id": ""
+            },
+            "organization_custom_denomination": false,
+            "organization_testimonial": {
+                "testimonial_text": "What the world thinks about us!",
+                "to_display": true,
+                "testimonials": [
+                    {
+                        "title": "HSBC India",
+                        "designation": "Partner",
+                        "description": "For more than two decades, the partnership between WWF-India and HSBC India has demonstrated what's possible when organisations with a shared purpose work together. Grounded in research, evidence and citizen engagement, WWF-India's approach has helped deliver impactful programmes across diverse geographies in India.",
+                        "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/702c1a4b-85fe-4b16-a553-ef7411f9131a_thumbnail_10.jpeg"
+                    },
+                    {
+                        "title": "Microsoft India",
+                        "designation": "Partner",
+                        "description": "Our partnership with WWF-India has been a powerful example of how technology and conservation can come together for real-world impact. Through close collaboration and shared commitment, we have leveraged AI and data to strengthen forest fire preparedness and support government and community-led resilience efforts. We value WWF-India as a trusted partner in advancing sustainable, technology-enabled conservation in India.",
+                        "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/dfa5f013-332e-4f96-95d0-f105f7bf8360_thumbnail_9.png"
+                    },
+                    {
+                        "title": "Capgemini",
+                        "designation": "Partner",
+                        "description": "At Capgemini, we believe that technology and education together can unlock powerful pathways for sustainable development. Our partnership with WWF-India for One Planet Academy — an interactive digital environment-education portal — reflects this commitment. Co-creating this platform has enabled us to bring high-quality, engaging and action-oriented environmental learning to students and teachers across India.",
+                        "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/b163989f-98bc-494b-a8af-e5c7e5f1c6a4_thumbnail_ada.jpeg"
+                    },
+                    {
+                        "title": "Warner Bros. Discovery",
+                        "designation": "Partner",
+                        "description": "For over eight years, Warner Bros. Discovery has been proud to partner with WWF-India, supporting impactful efforts in tiger conservation, reducing human-tiger conflict and safeguarding the fragile mangroves of the Sundarbans. WWF-India's on-ground commitment continues to drive meaningful, lasting change for both wildlife and communities.",
+                        "image": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/3cbf3b7d-1cfa-4386-a635-319b32e4e2cb_thumbnail_images.jpeg"
+                    }
+                ]
+            },
+            "organization_top_donor": {
+                "to_display_top_donor": false,
+                "to_display_amount": false
+            },
+            "organization_partners": {
+                "partners_text": "Our Partners",
+                "to_display": true,
+                "partners": [
+                    {
+                        "link": "",
+                        "alt_text": "HSBC",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/d7329de8-9488-4445-9f78-0f920ca02c1d_thumbnail_8.png"
+                    },
+                    {
+                        "link": "",
+                        "alt_text": "Microsoft India",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/6c432087-c15d-4709-b6d6-4fab973048ac_thumbnail_Microsoft_India-Logo.wine.png"
+                    },
+                    {
+                        "link": "",
+                        "alt_text": "Capgemini",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/864376a5-0c56-416f-95d5-5c6b9f567034_thumbnail_images.png"
+                    },
+                    {
+                        "link": "",
+                        "alt_text": "WB",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/b7104632-29bc-41d4-bc2f-48b79ae05710_thumbnail_7.png"
+                    }
+                ]
+            },
+            "organization_media": {
+                "media_text": "As featured in",
+                "to_display": true,
+                "medias": [
+                    {
+                        "alt_text": "Hindustan Times",
+                        "media_link": "https://www.hindustantimes.com/india-news/sikkim-e",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/c5018d6a-6b31-4981-93eb-11b5fff018de_thumbnail_4.png"
+                    },
+                    {
+                        "alt_text": "Mint",
+                        "media_link": "https://www.livemint.com/mint-lounge/ideas/women-c",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/6ed61f5b-985c-441b-b045-d59281b2690f_thumbnail_6.png"
+                    },
+                    {
+                        "alt_text": "Firstpost",
+                        "media_link": "https://www.firstpost.com/lifestyle/in-arunachal-p",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/ba24499e-6214-48a8-98c5-07732422a61c_thumbnail_Media.png"
+                    },
+                    {
+                        "alt_text": "The Hindu",
+                        "media_link": "https://www.thehindu.com/life-and-style/a-new-fiel",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/76c778ba-15cc-4640-9919-474aecd69d7c_thumbnail_2.png"
+                    },
+                    {
+                        "alt_text": "DH",
+                        "media_link": "https://www.deccanherald.com/environment/climate-a",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/72a89015-5f8f-493d-9e70-b8f0279d9d11_thumbnail_5.png"
+                    },
+                    {
+                        "alt_text": "Mid Day",
+                        "media_link": "ttps://www.mid-day.com/mumbai/mumbai-news/article/",
+                        "logo": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/background/29f11fbe-2aa7-40b5-ba43-62c247581490_thumbnail_3.png"
+                    }
+                ]
+            },
+            "google_analytics_tracking_id": "",
+            "fb_pixel_id": "",
+            "amplitude_id": "",
+            "crisp_website_id": "",
+            "display_live_initiatives": true,
+            "organization_wepay_registeration_number": "",
+            "organization_wepay_logo": "",
+            "is_wepay_logo": false,
+            "organization_is_facilitator": false,
+            "organization_facilitator_name": "",
+            "organization_facilitator_type": "",
+            "organization_facilitator_logo": "",
+            "organization_facilitator_email": "",
+            "organization_facilitator_address": "",
+            "organization_crowdera_as_facilitator": false,
+            "pancard_compulsory": true,
+            "passport_compulsory": true,
+            "address_compulsory": true,
+            "edited_fields": [
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "organization_domain",
+                    "time": 1787620686273
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Facebook URL",
+                    "time": 1787620735077
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Twitter URL",
+                    "time": 1787620742988
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Instagram URL",
+                    "time": 1787620749999
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Youtube URL",
+                    "time": 1787620758762
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization LinkedIn URL",
+                    "time": 1787620765788
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization browser logo",
+                    "time": 1787620832280
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "organization_domain",
+                    "time": 1787620686273
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Facebook URL",
+                    "time": 1787620735077
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Twitter URL",
+                    "time": 1787620742988
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Instagram URL",
+                    "time": 1787620749999
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Youtube URL",
+                    "time": 1787620758762
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization LinkedIn URL",
+                    "time": 1787620765788
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization browser logo",
+                    "time": 1787620832280
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "organization_domain",
+                    "time": 1787620686273
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Facebook URL",
+                    "time": 1787620735077
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Twitter URL",
+                    "time": 1787620742988
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Instagram URL",
+                    "time": 1787620749999
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization Youtube URL",
+                    "time": 1787620758762
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization LinkedIn URL",
+                    "time": 1787620765788
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "Organization browser logo",
+                    "time": 1787620832280
+                },
+                {
+                    "editedBy": "Team Crowdera",
+                    "name": "organization_domain",
+                    "time": 1789727026457
+                }
+            ],
+            "ai_text_generation": "none",
+            "organization_update": {
+                "title": "",
+                "message": "",
+                "attachments": []
+            },
+            "accept_international": "wepay",
+            "is_own_account": false,
+            "min_Ind_donation_amt": 100,
+            "min_other_donation_amt": 10,
+            "min_ind_amt_to_show_pan_address": "",
+            "min_non_ind_amt_to_show_address": "",
+            "accept_recurring_only": false,
+            "subscription_data": {
+                "is_sub_changed": false,
+                "data": [],
+                "default_period_ind": null
+            },
+            "investment_percent_data": {
+                "is_investment": false,
+                "data": []
+            },
+            "join_team_button": {
+                "team_button_text": "JOIN TEAM",
+                "team_button_check": false
+            },
+            "organization_email_update": {
+                "email_subject": "",
+                "email_message": ""
+            },
+            "is_indian_donation": false,
+            "set_campaign_alwaysOn": true,
+            "isIndianCheckoutDisabled": false,
+            "checkout_title": "World Wide Fund For Nature- India",
+            "show_tax_receipt_address": false,
+            "show_tax_receipt_pan": false,
+            "show_tax_receipt_passport": false,
+            "show_tax_receipt_nationality": false,
+            "hide_indian_tax_receipt_address": false,
+            "hide_foreign_tax_receipt_address": false,
+            "is_address_optional": false,
+            "event_ticket_tax_receipt": false,
+            "event_tax_receipt_enabled": false,
+            "event_tax_deduction_percent": 0,
+            "show_campaign_deno": true,
+            "show_dedicate": false,
+            "show_designate": false,
+            "other_tax_data": {
+                "value": 2,
+                "label": "Other Tax Residency",
+                "country": "United States"
+            },
+            "default_deno_ind": null,
+            "perk_category_title": "",
+            "perk_categories": [],
+            "email_notifications": {
+                "donation_receipt_emails": [],
+                "update_notification_emails": [],
+                "registration_notification_emails": [],
+                "monthly_contribution_emails": [],
+                "monthly_reports_enabled": false
+            },
+            "google_credential": {
+                "client_id": "",
+                "client_email": "",
+                "private_key": "",
+                "project_id": "",
+                "sheet": {
+                    "sheet_id": "",
+                    "sheet_name": "",
+                    "embedded_link": "",
+                    "data": ""
+                },
+                "calendar": {
+                    "calendar_id": "",
+                    "calendar_name": "",
+                    "embedded_link": "",
+                    "data": ""
+                },
+                "form": {
+                    "form_id": "",
+                    "form_name": "",
+                    "embedded_link": "",
+                    "data": ""
+                }
+            },
+            "user_role_ids": [],
+            "calendar_custom": {
+                "manualEvents": [],
+                "eventCategories": [],
+                "calendarTitle": "",
+                "is_google_connected": false
+            },
+            "advisory_board": {
+                "is_enabled": false,
+                "title": "",
+                "description": "",
+                "members": [],
+                "_id": "6a8cecb7ab114b5204d35208"
+            },
+            "impact_profile": {
+                "is_enabled": true,
+                "mission_statement": "To stop the degradation of the planet's natural environment and build a future in which humans live in harmony with nature, by conserving the rich biological diversity of the country, ensuring the responsible and sustainable use of natural resources, and combating pollution and eliminating wasteful consumption.",
+                "vision_statement": "",
+                "focus_areas": [
+                    {
+                        "name": "Biodiversity conservation and footprint reduction",
+                        "description": "",
+                        "_id": "6a8d0c18ab114b5204d37963"
+                    }
+                ],
+                "geographic_presence": [
+                    {
+                        "country": "Across India",
+                        "state": "",
+                        "district": "",
+                        "_id": "6a8d0c18ab114b5204d37964"
+                    }
+                ],
+                "impact_metrics": [
+                    {
+                        "metric_name": "Learners reached through environment education",
+                        "metric_value": 3000000,
+                        "metric_unit": "Learners",
+                        "reporting_year": null,
+                        "is_featured": false,
+                        "_id": "6a8d0c18ab114b5204d37965"
+                    }
+                ],
+                "annual_reports": [
+                    {
+                        "year": null,
+                        "report_url": "https://wwfin.awsassets.panda.org/downloads/annual-report-2022-24.pdf",
+                        "_id": "6a8d0c18ab114b5204d37966"
+                    }
+                ],
+                "_id": "6a8cecb7ab114b5204d35209"
+            },
+            "created_at": "2026-08-25T01:15:35.124Z",
+            "updated_at": "2026-09-30T10:09:23.080Z",
+            "__v": 0,
+            "beneficiary_id": "6a8cecb7ab114b5204d35215",
+            "organization_custom_denomination_data": {
+                "custom_denomination_one": "",
+                "custom_denomination_two": "",
+                "custom_denomination_three": "",
+                "custom_denomination_four": "",
+                "custom_denomination_five": ""
+            },
+            "organization_domain": "join.wwfindia.org",
+            "organization_favicon": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/gocrowdera/organization-favicons/f6e8ce2a-f252-47d6-b85e-5c7845ff6193_thumbnail_favicon.webp",
+            "organization_youtube": "https://www.youtube.com/@wwfindia",
+            "allow_user_recurring_actions": false,
+            "razorpay_route_accounts": [],
+            "paypal_gateway": false,
+            "stripe_gateway": false,
+            "wepay_gateway": false
+        },
+        "camDetails": [
+            {
+                "_id": "6ab0ca1802d47c8523633613",
+                "title": "World Rhino Day: Home for the One-Horned",
+                "description": "Celebrate World Rhino Day by donating to WWF-India's work protecting the greater one-horned rhino from poaching and habitat loss.",
+                "isShowStats": true,
+                "isShowProgress": true,
+                "isShowDonors": true,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/270ac639-ff0f-4565-8118-99720461df02_original_shutterstock_rhino_64832.webp",
+                        "type": "image/webp",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/270ac639-ff0f-4565-8118-99720461df02_thumbnail_shutterstock_rhino_64832.webp"
+                    }
+                ],
+                "slug": "rhino-day-fundraiser",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "time",
+                "expire_at": {
+                    "label": "30 Days",
+                    "value": "2026-10-21T06:11:29.668Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-09-21T06:09:28.075Z",
+                "category_name": "Animal Safety"
+            },
+            {
+                "_id": "6a8d24aeab114b5204d3abb9",
+                "title": "Double Your Donation for India's Tigers",
+                "description": "Every donation made during this campaign will be matched until the matching fund is exhausted, doubling your impact for tiger conservation.",
+                "isShowStats": true,
+                "isShowProgress": true,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/a61efc98-12ae-4a72-aa2e-31d609e54d25_original_doubletiger.png",
+                        "type": "image/png",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/a61efc98-12ae-4a72-aa2e-31d609e54d25_thumbnail_doubletiger.png"
+                    }
+                ],
+                "slug": "double-your-donation-for-indias-tigers",
+                "goal": "2060000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "time",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T05:14:58.539Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T05:14:22.647Z",
+                "category_name": "Animal Safety"
+            },
+            {
+                "_id": "6a8d2364ab114b5204d3a685",
+                "title": "Sniffer Dog Programme",
+                "description": "Tigers for skins, elephants for tusks, pangolins for scales. Help WWF-India end the trade driving India's wildlife toward extinction.",
+                "isShowStats": true,
+                "isShowProgress": false,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/12438ea5-5bb8-40f9-823f-b206c27cf219_original_dcscsdgdfh.png",
+                        "type": "image/png",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/12438ea5-5bb8-40f9-823f-b206c27cf219_thumbnail_dcscsdgdfh.png"
+                    }
+                ],
+                "slug": "sniffer-dog-programme",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "open",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T05:09:13.691Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T05:08:52.640Z",
+                "category_name": "Animal Safety"
+            },
+            {
+                "_id": "6a8d21f4ab114b5204d3a3d1",
+                "title": "Fight Climate Change",
+                "description": "Support WWF-India on clean energy, climate innovation and community action, and become part of the solution.",
+                "isShowStats": true,
+                "isShowProgress": false,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/afef4526-2fc6-47ef-93e8-77f7b6e61ec3_original_UD.png",
+                        "type": "image/png",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/afef4526-2fc6-47ef-93e8-77f7b6e61ec3_thumbnail_UD.png"
+                    }
+                ],
+                "slug": "fight-climate-change",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "open",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T05:03:17.191Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T05:02:44.044Z",
+                "category_name": "Climate Change"
+            },
+            {
+                "_id": "6a8d2023ab114b5204d3a0f1",
+                "title": "Donate To WWF-India",
+                "description": "Decades of damage have pushed our ecosystems to the brink; your donation helps WWF-India pull them back.",
+                "isShowStats": true,
+                "isShowProgress": false,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/87eaf4e6-58ff-41c8-9a4c-976d076d5c40_original_dwd.jpg",
+                        "type": "image/jpeg",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/87eaf4e6-58ff-41c8-9a4c-976d076d5c40_thumbnail_dwd.jpg"
+                    }
+                ],
+                "slug": "donate-to-wwfindia",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "open",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T04:55:30.160Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T04:54:59.368Z",
+                "category_name": "Animal Safety"
+            },
+            {
+                "_id": "6a8d1df0ab114b5204d39c22",
+                "title": "Become A WWF-India Support",
+                "description": "As a non-profit, WWF-India depends on your contribution to curb illegal wildlife trade and protect India's fragile ecosystems.",
+                "isShowStats": true,
+                "isShowProgress": false,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/41a7cb51-001d-4e42-86e4-ed8c1307f15e_original_suppoter.png",
+                        "type": "image/png",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/41a7cb51-001d-4e42-86e4-ed8c1307f15e_thumbnail_suppoter.png"
+                    }
+                ],
+                "slug": "become-a-wwfindia-support",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "open",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T04:46:09.790Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T04:45:36.360Z",
+                "category_name": "Volunteering"
+            },
+            {
+                "_id": "6a8d1ca8ab114b5204d398ab",
+                "title": "Support Water Conservation",
+                "description": "As India's wetlands disappear and its water grows scarcer, your support helps WWF-India rejuvenate rivers and recharge groundwater.",
+                "isShowStats": true,
+                "isShowProgress": false,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/53dbbc4b-aa48-4aaa-a3c5-57d75f506df2_original_swc.png",
+                        "type": "image/png",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/53dbbc4b-aa48-4aaa-a3c5-57d75f506df2_thumbnail_swc.png"
+                    }
+                ],
+                "slug": "support-water-conservation",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "open",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T04:40:48.771Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T04:40:08.720Z",
+                "category_name": "Clean Water"
+            },
+            {
+                "_id": "6a8d1aafab114b5204d391ed",
+                "title": "Save Wildlife From Extinction",
+                "description": "Wild species and the habitats they depend on are disappearing across India. Your support helps WWF-India protect them.",
+                "isShowStats": true,
+                "isShowProgress": false,
+                "isShowDonors": false,
+                "assets": [
+                    {
+                        "url": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/140b8722-9dc1-43aa-94d8-3c9c8a391696_original_SaveWildlife.png",
+                        "type": "image/png",
+                        "thumbnail": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/CDRA/campaign-assets/140b8722-9dc1-43aa-94d8-3c9c8a391696_thumbnail_SaveWildlife.png"
+                    }
+                ],
+                "slug": "save-wildlife-from-extinction",
+                "goal": "1000000",
+                "currency_symbol": "₹",
+                "campaign_active_time": "open",
+                "expire_at": {
+                    "label": "45 Days",
+                    "value": "2026-10-09T04:32:25.724Z"
+                },
+                "raised": 0,
+                "campaign_status": "ACCEPTED",
+                "created_at": "2026-08-25T04:31:43.162Z",
+                "category_name": "Animal Safety"
+            }
+        ],
+        "themeDetails": {
+            "services": {
+                "cardRadius": "12px",
+                "cardText": "22px",
+                "cardShadow": " ",
+                "isShow": true
+            },
+            "initiatives": {
+                "cardRadius": "20px",
+                "cardShadow": "0 10px 30px rgba(0,0,0,0.05)",
+                "buttonWidth": "100%",
+                "buttonRadius": "9999px",
+                "isShow": true,
+                "campaignStats": {}
+            },
+            "aboutUs": {
+                "isShow": true,
+                "title": "Conserving India's wildlife and wild places!",
+                "description": "Established on 27 November 1969, WWF-India was founded with a bold vision to protect the country's wildlife and natural habitats. More than five decades on, we work across nine landscapes and twelve river basins, combining science, policy and community action to conserve India's species and wild places.",
+                "points": "Supporting impactful initiatives with integrity\nTrusted by donors, volunteers, and partners\nMaking every contribution count toward change",
+                "image1": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/RECIPT_PREFIX/organization-about/58bc2311-5653-445d-b080-ba7983a1036c_original_dfgd.webp",
+                "image2": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/RECIPT_PREFIX/organization-header/a3586d0e-496a-4fc4-857a-7eac0197c9a6_original_pexels-arunangshu-mukherjee-269809262-13609493.webp"
+            },
+            "testimonials": {
+                "isShow": true
+            },
+            "topdonors": {
+                "isShow": true
+            },
+            "stats": {
+                "isShow": false,
+                "bgColor": "#fffff"
+            },
+            "featuredSection": {
+                "isShow": true
+            },
+            "partnersSection": {
+                "isShow": true
+            },
+            "cta": {
+                "isShow": true,
+                "bgColor": "#fffff"
+            },
+            "registration": {
+                "form": {
+                    "title": "Registration Form",
+                    "description": "",
+                    "fields": [],
+                    "layout": "",
+                    "updatedAt": ""
+                },
+                "isShow": true,
+                "page": "home",
+                "position": "after-about"
+            },
+            "calendar": {
+                "isShow": false,
+                "page": "home",
+                "position": "after-about"
+            },
+            "customCode": {
+                "isShow": true,
+                "components": []
+            },
+            "hero": {
+                "showLineAboveHeading": false,
+                "lineColor": "#FEC908"
+            },
+            "_id": "6a8cf339ab114b5204d35db7",
+            "organization_id": "6a8cecb7ab114b5204d35207",
+            "organization_url": "world-wide-fund-for-nature--india",
+            "primaryColor": "#F5D200",
+            "secondaryColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "fontFamily": "",
+            "template": "template-seven",
+            "is_active": true,
+            "headingFontFamily": "'Sora', Inter",
+            "headingFontWeight": "700",
+            "bodyFontFamily": "'Sora', Inter",
+            "contentOverrides": {
+                "hero": {
+                    "buttonText": "Learn More",
+                    "buttonTextUrl": "https://hosted.crowdera.com/about-us"
+                },
+                "aboutUs": {
+                    "image1": "https://crowdera-platform.s3.ap-south-1.amazonaws.com/RECIPT_PREFIX/organization-about/58bc2311-5653-445d-b080-ba7983a1036c_original_dfgd.webp",
+                    "title": "Conserving India's wildlife and wild places!",
+                    "description": "Established on 27 November 1969, WWF-India was founded with a bold vision to protect the country's wildlife and natural habitats. More than five decades on, we work across nine landscapes and twelve river basins, combining science, policy and community action to conserve India's species and wild places."
+                }
+            },
+            "created_at": "2026-08-25T01:43:21.834Z",
+            "updated_at": "2026-08-25T05:50:23.139Z",
+            "__v": 0
+        },
+        "formattedEvents": []
+    }
+}

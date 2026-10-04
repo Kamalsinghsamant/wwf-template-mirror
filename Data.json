@@ -1,0 +1,713 @@
+{
+    "site": {
+        "name": "WWF India Donation Platform",
+        "domain": "donate.wwfindia.org",
+        "crawl_date": "2026-10-02",
+        "base_url": "https://donate.wwfindia.org/"
+    },
+    "global_navigation": {
+        "main_nav": [
+            {
+                "text": "WORKPLACE GIVING",
+                "href": "https://donate.wwfindia.org/workplace-giving",
+                "target": "_blank"
+            },
+            {
+                "text": "Supporter Programme",
+                "href": "join-the-supporter-programme.php",
+                "target": "_self"
+            },
+            {
+                "text": "DONATIONS",
+                "href": "#",
+                "type": "dropdown",
+                "children": [
+                    {
+                        "text": "Donate to WWF-India",
+                        "href": "donate-to-wwf-india.php"
+                    },
+                    {
+                        "text": "Save Wildlife from Extinction",
+                        "href": "save-wildlife-from-extinction.php"
+                    },
+                    {
+                        "text": "Fight Climate Change",
+                        "href": "fight-climate-change.php"
+                    },
+                    {
+                        "text": "Support Sniffer Dog Programme",
+                        "href": "support-sniffer-dog-programme.php"
+                    },
+                    {
+                        "text": "Support Water Conservation",
+                        "href": "support-water-conservation.php"
+                    },
+                    {
+                        "text": "Save Our Tigers",
+                        "href": "protect-our-tigers.php"
+                    },
+                    {
+                        "text": "Protect Snow Leopards",
+                        "href": "save-snow-leopard.php"
+                    }
+                ]
+            }
+        ],
+        "mobile_nav": {
+            "type": "offcanvas",
+            "items": [
+                {
+                    "text": "DONATIONS",
+                    "type": "collapse",
+                    "children": [
+                        "Donate to WWF-India",
+                        "Save Wildlife from Extinction",
+                        "Fight Climate Change",
+                        "Support Sniffer Dog Programme",
+                        "Support Water Conservation",
+                        "Save Our Tigers",
+                        "Protect Snow Leopards"
+                    ]
+                },
+                {
+                    "text": "WORKPLACE GIVING",
+                    "href": "https://donate.wwfindia.org/workplace-giving"
+                },
+                {
+                    "text": "Supporter Programme",
+                    "href": "join-the-supporter-programme.php"
+                }
+            ]
+        },
+        "cta_buttons": [
+            {
+                "text": "DONATE",
+                "href": "donate-to-wwf-india.php",
+                "class": "cta-nav",
+                "icon": "fa-solid fa-plus",
+                "location": "header"
+            }
+        ]
+    },
+    "pages": [
+        {
+            "url": "https://donate.wwfindia.org/",
+            "title": "Support WWF-India",
+            "meta_description": "Help us create a brighter future for nature & humans. Donate now.",
+            "sections": [
+                {
+                    "type": "hero",
+                    "heading": "HELP US CREATE A BRIGHTER FUTURE FOR NATURE & HUMANS",
+                    "content": "Magnificent animals like the snow leopard, Indian rhino, Bengal tiger, Asian elephant and red panda are at the top of our priority list. Help us secure their home and future.",
+                    "cta": {
+                        "text": "Donate Now",
+                        "href": "donate-to-wwf-india.php"
+                    }
+                }
+            ],
+            "ctas": [
+                {
+                    "text": "Donate Now",
+                    "href": "donate-to-wwf-india.php",
+                    "type": "button",
+                    "location": "hero"
+                },
+                {
+                    "text": "DONATE",
+                    "href": "donate-to-wwf-india.php",
+                    "type": "button",
+                    "location": "header"
+                }
+            ],
+            "images": [
+                "https://donate.wwfindia.org/images/home-abnner.webp",
+                "https://donate.wwfindia.org/images/logo.webp"
+            ],
+            "links": [
+                "https://donate.wwfindia.org/workplace-giving",
+                "join-the-supporter-programme.php",
+                "donate-to-wwf-india.php",
+                "save-wildlife-from-extinction.php",
+                "fight-climate-change.php",
+                "support-sniffer-dog-programme.php",
+                "support-water-conservation.php",
+                "protect-our-tigers.php",
+                "save-snow-leopard.php"
+            ]
+        },
+        {
+            "url": "https://donate.wwfindia.org/workplace-giving/",
+            "title": "Workplace Giving Program | WWF India",
+            "meta_description": "Bringing nature closer to your workplace. Employee engagement, corporate matching, payroll giving and volunteering programmes.",
+            "sections": [
+                {
+                    "type": "hero",
+                    "heading": "Workplace Giving",
+                    "subheading": "Bringing nature closer to your workplace",
+                    "cta": {
+                        "text": "Donate Now",
+                        "href": "/workplace-giving/#mobileViewForm"
+                    }
+                },
+                {
+                    "type": "stats",
+                    "items": [
+                        {
+                            "percentage": "88%",
+                            "text": "believe effective employee engagement programmes help attract and retain employees.",
+                            "source": "https://doublethedonation.com/matching-gift-statistics/"
+                        },
+                        {
+                            "percentage": "86%+",
+                            "text": "of Indian employees do not feel they are thriving at work.",
+                            "source": "https://www.indiatoday.in/business/story/only-14-percent-indian-employees-thriving-in-life-gallup-workplace-report-2024-2552297-2024-06-12"
+                        },
+                        {
+                            "percentage": "67%",
+                            "text": "of Fortune 500 companies offer employee donation matching gift programs.",
+                            "source": "https://doublethedonation.com/matching-gift-statistics/"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "heading": "What Is Workplace Giving?",
+                    "content": "Workplace Giving Programme brings a one-of-a-kind opportunity to individuals and companies to learn from immersive experiences, while supporting WWF-India to protect our planet. Together, individuals and companies can create a positive change for nature and leave a lasting legacy for future generations."
+                },
+                {
+                    "type": "benefits",
+                    "heading": "Benefits For You And Your Workplace",
+                    "items": [
+                        {
+                            "icon": "fa-solid fa-user",
+                            "text": "Rediscover your connection to nature"
+                        },
+                        {
+                            "icon": "fa-solid fa-handshake",
+                            "text": "Support WWF-India and protect our planet"
+                        },
+                        {
+                            "icon": "fa-brands fa-pagelines",
+                            "text": "Foster a culture of environmental responsibility"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "heading": "Why Associate With WWF-INDIA?",
+                    "content": "WWF-India has been at the helm of various conservation projects for 56 years to preserve India's rich biodiversity, promote sustainability and create a nature-positive future. You can help reverse nature loss and protect wildlife and habitats, preserve rivers and wetlands, fight climate change and much more.",
+                    "counters": [
+                        {
+                            "label": "Projects Since 1961",
+                            "icon": "project.svg"
+                        },
+                        {
+                            "label": "Social Media Followers",
+                            "icon": "social.svg"
+                        },
+                        {
+                            "label": "Years of science-based conservation experience",
+                            "icon": "science.svg"
+                        },
+                        {
+                            "label": "Indian States",
+                            "icon": "country.svg"
+                        },
+                        {
+                            "label": "Members",
+                            "icon": "member.svg"
+                        }
+                    ]
+                },
+                {
+                    "type": "offerings",
+                    "heading": "Something For Everyone",
+                    "items": [
+                        {
+                            "title": "Leaders for Change",
+                            "image": "/workplace-giving/images/Patronage.png",
+                            "features": [
+                                "Flagship regular giving programme with quarterly themes",
+                                "Three unique hands-on offerings to explore each theme:",
+                                "Learning Hub",
+                                "Ideas Lab",
+                                "Action Zone"
+                            ],
+                            "cta": {
+                                "text": "Learn More",
+                                "href": "/workplace-giving/leaders-for-change"
+                            }
+                        },
+                        {
+                            "title": "Corporate Matching",
+                            "image": "/workplace-giving/images/Customied-Corporate-1.png",
+                            "features": [
+                                "Double the impact of your contribution.",
+                                "Contribute your time and skills in hourly volunteering opportunities.",
+                                "Engage your employees through custom in-person and virtual events."
+                            ],
+                            "cta": {
+                                "text": "Learn More",
+                                "href": "/workplace-giving/corporate-matching"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "faq",
+                    "heading": "FAQ's",
+                    "items": [
+                        {
+                            "question": "Where is WWF-India's Workplace Giving programme currently offered?",
+                            "answer": "Activities under Action Zone are being organised in Delhi-NCR, Chennai, Bangalore, Mumbai, and Hyderabad, Activities under Corporate Matching are available in Delhi NCR, Mumbai, Bengaluru and Hyderabad and can also be conducted simultaneously in multiple locations with prior enquiry. For other cities, reach out to our team for enquiry."
+                        },
+                        {
+                            "question": "How does the Workplace Giving Programme benefit employees?",
+                            "answer": "Employees get an opportunity to contribute to vital conservation projects, participate in engaging environmental activities, and join a global movement for sustainability. Contributions can be tracked through quarterly updates."
+                        },
+                        {
+                            "question": "Are there any specific themes or campaigns associated with Workplace Giving?",
+                            "answer": "Yes, the Programme emphasizes quarterly themes aligned with global environmental priorities, such as wildlife conservation, climate resilience, and reducing plastic pollution."
+                        },
+                        {
+                            "question": "Can I make a one-time contribution instead of recurring donation?",
+                            "answer": "Yes, we offer an option of a one-time annual payment. You may also select a quarterly recurring donation frequency instead of monthly."
+                        },
+                        {
+                            "question": "Is my contribution under Workplace Giving eligible for tax benefits?",
+                            "answer": "Yes, all contributions made to WWF-India's Workplace Giving programme are eligible for a 50% tax relief under Section 80G of the Income Tax Act, 1961."
+                        },
+                        {
+                            "question": "How is the contribution deducted?",
+                            "answer": "Contributions are either deducted through an online payment system or directly from employees' salaries via payroll giving, if supported by the corporate."
+                        }
+                    ]
+                }
+            ],
+            "forms": [
+                {
+                    "id": "mobileViewForm",
+                    "title": "LEADERS FOR CHANGE",
+                    "type": "multi-step",
+                    "steps": [
+                        {
+                            "step": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "frequency",
+                                    "options": [
+                                        "Monthly"
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "amount",
+                                    "options": [
+                                        "SUPPORTER ₹ 750",
+                                        "HERO ₹ 1250",
+                                        "CHAMPION ₹ 2000"
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "name",
+                                    "placeholder": "Name*"
+                                },
+                                {
+                                    "type": "email",
+                                    "name": "email",
+                                    "placeholder": "Email*"
+                                },
+                                {
+                                    "type": "number",
+                                    "name": "phone",
+                                    "placeholder": "Phone*",
+                                    "maxlength": 10
+                                }
+                            ]
+                        },
+                        {
+                            "step": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "company",
+                                    "placeholder": "Company Name*"
+                                },
+                                {
+                                    "type": "select",
+                                    "name": "location",
+                                    "options": [
+                                        "DELHI",
+                                        "NCR",
+                                        "Mumbai",
+                                        "Hyderabad",
+                                        "Bangalore",
+                                        "Chennai"
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "address",
+                                    "placeholder": "Address*"
+                                },
+                                {
+                                    "type": "number",
+                                    "name": "pin",
+                                    "placeholder": "PIN*"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "city",
+                                    "placeholder": "City*"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "state",
+                                    "placeholder": "State*"
+                                },
+                                {
+                                    "type": "select",
+                                    "name": "nationality",
+                                    "options": [
+                                        "Indian"
+                                    ]
+                                },
+                                {
+                                    "type": "select",
+                                    "name": "identificationType",
+                                    "options": [
+                                        "PAN",
+                                        "Aadhar",
+                                        "Passport"
+                                    ]
+                                },
+                                {
+                                    "type": "date",
+                                    "name": "dob",
+                                    "placeholder": "Date of birth"
+                                }
+                            ]
+                        },
+                        {
+                            "step": 3,
+                            "fields": [
+                                {
+                                    "type": "checkbox",
+                                    "name": "terms",
+                                    "label": "As per the Indian Income Tax Department's rules, a donor is required to add their Full Name, Address, and PAN number in case they wish to claim tax exemption."
+                                },
+                                {
+                                    "type": "submit",
+                                    "value": "Pay Now"
+                                }
+                            ]
+                        }
+                    ],
+                    "annual_variant": {
+                        "amounts": [
+                            "SUPPORTER ₹ 9000",
+                            "HERO ₹ 15,000",
+                            "CHAMPION ₹ 24,000"
+                        ]
+                    },
+                    "note": "*Only Indian nationals can donate on this platform."
+                }
+            ],
+            "ctas": [
+                {
+                    "text": "Donate Now",
+                    "href": "/workplace-giving/#mobileViewForm",
+                    "type": "button",
+                    "location": "hero (mobile)"
+                },
+                {
+                    "text": "Learn More",
+                    "href": "/workplace-giving/leaders-for-change",
+                    "type": "button",
+                    "location": "offerings"
+                },
+                {
+                    "text": "Learn More",
+                    "href": "/workplace-giving/corporate-matching",
+                    "type": "button",
+                    "location": "offerings"
+                }
+            ],
+            "links": [
+                "/workplace-giving/leaders-for-change",
+                "/workplace-giving/corporate-matching",
+                "https://doublethedonation.com/matching-gift-statistics/",
+                "https://www.indiatoday.in/business/story/only-14-percent-indian-employees-thriving-in-life-gallup-workplace-report-2024-2552297-2024-06-12"
+            ],
+            "dynamic_routes": [
+                {
+                    "path": "/workplace-giving/leaders-for-change",
+                    "status": "client-side rendered",
+                    "note": "React route, requires JS to render content."
+                },
+                {
+                    "path": "/workplace-giving/corporate-matching",
+                    "status": "client-side rendered",
+                    "note": "React route, requires JS to render content."
+                }
+            ]
+        },
+        {
+            "url": "https://donate.wwfindia.org/donate-to-wwf-india.php",
+            "title": "Donate to WWF-India",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Donate to WWF-India",
+                    "content": "Our planet is in peril. Decades of reckless human activity have led to catastrophic damage to the ecosystems that sustain and protect us. We're rapidly approaching a tipping point, after which the losses will be irreversible. But you have the power to turn this around. Make a donation and help WWF-India in building a future where nature and humans thrive in harmony. For the past five decades, WWF-India is on a mission to protect critical species and eco-regions of national and global importance. Additionally, we recognise significant conservation issues that affect the overall biodiversity of our country. Over the years, these holistic efforts have led to remarkable success stories of protecting many priority species and their critical habitats."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Protect wildlife and save natural habitats",
+                        "Curb poaching and illegal wildlife trade",
+                        "Fight climate change and build resilience",
+                        "Restore the health of our water bodies",
+                        "Tackle plastic pollution",
+                        "Support communities on the frontline of human-wildlife conflict",
+                        "Create, test and promote sustainability solutions"
+                    ]
+                },
+                {
+                    "type": "donation_form",
+                    "fields": [
+                        {
+                            "type": "currency",
+                            "symbol": "₹"
+                        },
+                        {
+                            "type": "text",
+                            "name": "name"
+                        },
+                        {
+                            "type": "email",
+                            "name": "email"
+                        },
+                        {
+                            "type": "number",
+                            "name": "phone"
+                        },
+                        {
+                            "type": "checkbox",
+                            "name": "terms"
+                        }
+                    ],
+                    "note": "Only Indian nationals can donate on this platform."
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/join-the-supporter-programme.php",
+            "title": "Become a WWF-India Supporter",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Become a WWF-India Supporter",
+                    "content": "We have seen a staggering decline of 73% in the average size of wildlife populations around the world in the last 50 years, as stated in WWF's Living Planet Report 2024. When nature loss accelerates, it topples ecosystems critical to human survival. WWF-India is working closely with government agencies and local communities to protect India's rich yet declining biodiversity. Our efforts directly address severe environmental crises. These range from helping curb illegal wildlife trade to preventing the destruction of fragile ecosystems. But we cannot do it alone. As a non-profit organisation, our success depends on your financial contribution. Your support can be the turning point. Make a one-time donation and become a WWF-India Supporter for up to five years. Together, we can restore balance to this planet and protect our future."
+                },
+                {
+                    "type": "list",
+                    "heading": "As a WWF-India Supporter, you will receive:",
+                    "items": [
+                        "A Supporter Kit – A special assortment of our conservation products to welcome you aboard.",
+                        "A Quarterly Donor Magazine Pack – Exclusive stories of change from the field and snippets of our work and impact, made possible through your generous support.",
+                        "Opportunities to Engage with Us – Regular updates on latest local events, activities, campaigns and webinars organised by WWF-India.",
+                        "Special Offers – You will receive a 10% discount on all of WWF-India's conservation products."
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/save-wildlife-from-extinction.php",
+            "title": "Save Wildlife from Extinction",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Save Wildlife from Extinction",
+                    "content": "Wild species do not exist in isolation—they are integral to the balance of the ecosystems that nourish us. But biodiversity is declining around the world. Experts say we're in the middle of a mass extinction event—the sixth one in Earth's history, and this one is driven by human activity. India is home to the largest share of the global wild tiger population and nearly 60% of the wild Asiatic elephants in the world. It is vital that we care for these populations to ensure the survival of the species, but their natural habitats are disappearing and degrading at an alarming rate. WWF-India is working every day to preserve wild species and spaces in India. Your support is the driving force behind our efforts. Help us secure the future of our country's wildlife and everything that depends on it."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Prevent human-wildlife conflict and promote coexistence",
+                        "Restore vital natural habitats for endangered species such as the tiger, Asian elephant, red panda, snow leopard and Indian rhino",
+                        "Track, trace and monitor wild populations; leverage science and technology, including installing camera traps and data analysis, to conduct surveys in challenging terrains for research and monitoring",
+                        "Conserve corridors essential for wildlife movement",
+                        "Curb poaching and illegal wildlife trade"
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/fight-climate-change.php",
+            "title": "Fight Climate Change",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Fight Climate Change",
+                    "content": "Climate change is the most significant environmental crisis of our time. We have just emerged from the hottest year on record. In fact, the 10 warmest years on record have all occurred in the last decade—and things are not looking up. Researchers say there's a 66% chance we will pass the 1.5 degrees Celsius global warming threshold in the next five years. This would be catastrophic for humanity and nature alike. Many species will face extinction due to global warming. WWF-India is working to generate awareness about clean and efficient energy solutions and climate innovations, and mobilising communities to come together and take collective action for mitigating and adapting to climate change. Support WWF-India to fight this climate crisis and become part of the solution."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Restore wetlands, which act as buffers against floods and droughts alike",
+                        "Plant mangroves, which fortify our coastline against storm surges and erosion",
+                        "Test and promote clean energy solutions to reduce greenhouse gas emissions",
+                        "Make communities resilient with alternative livelihoods",
+                        "Restore a variety of carbon sinks",
+                        "Tackle plastic pollution"
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/support-sniffer-dog-programme.php",
+            "title": "Sniffer Dog Programme",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Sniffer Dog Programme",
+                    "content": "Illegal wildlife trade is one of the top drivers of global biodiversity loss, as stated by the Intergovernmental Science Policy Platform on Biodiversity and Ecosystem Services (IPBES). It is reported to be the fourth most substantial organised criminal activity globally, threatening the survival of many wildlife species. Illegal wildlife trade is threatening the country's natural heritage, with wildlife species being killed for their body parts—tigers for their skin, elephants for their tusks, rhinoceroses for their horns, pangolins for their scales, mongoose for their hair, turtles for their shells and so on. As India is one of the recognised mega-diverse regions in the world, smugglers and poachers eye the country's biodiversity to earn big profits. Therefore, curbing illegal wildlife trade and wildlife crime is a priority for WWF-India. To achieve this, it is necessary that the best enforcement practices are deployed against such crimes. Sniffer dogs' contribution in detection and prevention of wildlife crimes is being seen as a game changer for wildlife protection in India. WWF-India, with support from stakeholders, started the Sniffer Dog Training Programme in 2008 with just two canine squads. Under this, dogs are trained to use their incredible sense of smell to detect wildlife parts and derivatives, nab poachers and even locate hidden traps. Your support can help us put an end to this organised crime."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Train sniffer dogs to detect and deter wildlife crime.",
+                        "Organise specialised training of wildlife law enforcement officers.",
+                        "Distribute Deep Search Metal Detectors that detect snares and traps used by poachers.",
+                        "Provide forensic field kits to forest departments to collect evidence.",
+                        "Launch awareness campaigns to curb demand."
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/support-water-conservation.php",
+            "title": "Support Water Conservation",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Support Water Conservation",
+                    "content": "Freshwater environments include rivers, lakes, wetlands, streams and underground aquifers. These are crucial for the sustenance of life on the planet. India faces an alarming problem of water scarcity. This is only getting worse with the loss of wetlands—places where the land is covered by water seasonally or permanently. Wetlands provide crucial social, economic and environmental services. From controlling floods to generating livelihoods, wetlands are integral to our shared healthy future. Nearly two of every five wetlands in the country have lost their natural existence in the last 30 years. Around 40% of water bodies have lost quality for the survival of aquatic animals like turtles and dolphins. WWF-India works with governments, people and other partners to reverse this damage. With every wetland rejuvenated, we recharge groundwater, mitigate climate change and preserve the region's biodiversity. Additionally, our river rejuvenation programme ensures the ecological integrity of rivers and their associated ecosystems and sustainable water management. Your support can breathe new life into our water bodies."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Bring wetlands back to life and ensure water security for millions",
+                        "Restore the health and connectivity of rivers",
+                        "Save freshwater turtles, gharials, and Ganges river dolphins from extinction",
+                        "Train community stewards called Water Mitras in preserving water bodies and their biodiversity",
+                        "Educate thousands of kids and hundreds of teachers with the Water School Programme"
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/protect-our-tigers.php",
+            "title": "Save Our Tigers",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Save Our Tigers",
+                    "content": "Tigers are apex predators of regions with rich biodiversity. They regulate herbivore populations and maintain the balance of entire ecosystems. The tiger is also India's national animal and has immense cultural significance for many communities around the country. Tigers are essential for preserving the health of forests, which are crucial to fighting climate change. But tigers in India face an uncertain future. Their habitats are disappearing and degrading at an alarming rate. As their home gets fragmented, tigers are forced into closer contact with people. This often leads to heartbreaking losses. But there is hope. WWF-India is working on the ground every day—protecting tigers, conserving vital habitats and corridors, helping communities prevent human-wildlife conflict and curbing illegal wildlife trade. Your donation will make you a protector of India's national animal."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Conduct research and monitoring to understanding tiger movement within and outside protected areas, which is crucial to tiger conservation.",
+                        "Mitigate human-wildlife conflict and promote peaceful coexistence by working with communities through a response system called Bagh Mitras. These are local volunteers who collect information on tiger presence in farmlands and alert authorities.",
+                        "Provide immediate financial support to people who lose cattle to tiger attacks. This interim relief curbs retaliatory killing of tigers. In 2023 alone, 1,364 people benefitted from this scheme.",
+                        "Conserve corridors, which connect protected habitats and enable safe tiger movement. Corridors are often made up of agricultural lands, habitat patches and human settlements, lacking the protection of tiger reserves. WWF-India is working to advance connectivity conservation.",
+                        "Monitor illegal wildlife trade of tiger parts and provide information for effective conservation policies. WWF-India conducts regular capacity-building programmes to improve understanding of wildlife laws and their implications."
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        },
+        {
+            "url": "https://donate.wwfindia.org/save-snow-leopard.php",
+            "title": "Protect Snow Leopards",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Protect Snow Leopards",
+                    "content": "Solitary, silent and majestically beautiful, the snow leopard is one of the most elusive and enigmatic big cats. Living in the high-altitude terrain of the Himalayas, it is also one of the most vulnerable species in India. It needs your help now. Your support can help protect the snow leopard, the apex predator of its natural range. The impact of its conservation will be felt through the ecosystem and trickle down to the 500 million people who rely on the rivers that originate in its habitat. Support WWF-India in its efforts to save the snow leopard and conserve the Himalayan ecosystem."
+                },
+                {
+                    "type": "list",
+                    "heading": "Your support will help WWF-India:",
+                    "items": [
+                        "Track and monitor snow leopards in the Himalayas",
+                        "Conduct monitoring surveys and research in high-altitude and challenging landscapes",
+                        "Protect livestock from snow leopards with smart enclosures",
+                        "Raise awareness among communities that share their mountains with the big cat",
+                        "Curb poaching and illegal trade of snow leopards"
+                    ]
+                }
+            ],
+            "ctas": [],
+            "links": []
+        }
+    ],
+    "global_ctas": [
+        {
+            "text": "DONATE",
+            "href": "donate-to-wwf-india.php",
+            "type": "header_button",
+            "icon": "fa-solid fa-plus"
+        },
+        {
+            "text": "Donate Now",
+            "href": "donate-to-wwf-india.php",
+            "type": "hero_button"
+        }
+    ],
+    "assets": {
+        "css": [
+            "https://donate.wwfindia.org/css/bootstrap.min.css",
+            "https://donate.wwfindia.org/css/styles.css",
+            "https://donate.wwfindia.org/css/responsive.css",
+            "https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css",
+            "/workplace-giving/assets/index-B5jb4OhY.css",
+            "/workplace-giving/assets/slick-theme-D54d5hu1.css",
+            "/workplace-giving/assets/Tabs-C-xBltsw.css"
+        ],
+        "js": [
+            "/workplace-giving/assets/index-Bv4GDitt.js",
+            "/workplace-giving/assets/Home-DyypLRrF.js",
+            "/workplace-giving/assets/Footer-DcojWq9s.js",
+            "/workplace-giving/assets/slick-theme-F5Jqcrai.js",
+            "/workplace-giving/assets/Tabs-DwRaQI25.js"
+        ],
+        "fonts": [
+            "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap",
+            "/workplace-giving/fonts/WWF.woff2"
+        ]
+    }
+}
