@@ -39,6 +39,7 @@ Thumbs.db
 **/*.json
 !package.json
 !package-lock.json
+!jsconfig.json
 !Data.json
 !response.json
 
