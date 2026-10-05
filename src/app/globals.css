@@ -21,6 +21,36 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* WWF brand typography — see usage charts (WWF / Georgia / Open Sans / Arial) */
+@layer base {
+  h1,
+  h2 {
+    font-family: var(--font-wwf), "Arial Narrow", "Arial Black", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-opensans), "Open Sans", Arial, sans-serif;
+  }
+}
+
+@layer components {
+  /* Long-form campaign / narrative body — Georgia, sentence case */
+  .font-narrative {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .font-narrative p,
+  .font-narrative li {
+    font-family: inherit;
+    text-transform: none;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;

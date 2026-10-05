@@ -1,14 +1,7 @@
-import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
-  variable: "--font-opensans",
-  display: "swap",
-});
+import { openSans, wwfFont } from "@/lib/fonts";
 
 export const metadata = {
   title: "Support WWF-India | Official Donation Platform",
@@ -28,7 +21,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={openSans.variable}>
+    <html lang="en" className={`${openSans.variable} ${wwfFont.variable}`}>
       <head>
         <link
           rel="stylesheet"

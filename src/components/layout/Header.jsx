@@ -10,6 +10,16 @@ const donationsItem = globalNavigation.main_nav.find(
 );
 const donationChildren = donationsItem ? donationsItem.children : [];
 
+/** WWF signature font — main nav (uppercase on-screen) */
+const desktopNavLink =
+  "font-display text-base font-bold uppercase tracking-wide transition-colors py-2 border-b-2";
+const mobileNavLink =
+  "font-display block px-3 py-2.5 rounded text-base font-bold uppercase";
+const mobileCauseLink =
+  "font-display block px-3 py-2.5 rounded text-sm font-bold uppercase";
+const dropdownCauseLink =
+  "font-display flex items-center justify-between px-4 py-3 text-base font-bold uppercase transition-colors";
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [donationsDropdownOpen, setDonationsDropdownOpen] = useState(false);
@@ -93,7 +103,7 @@ export default function Header() {
                 className="h-10 sm:h-12 w-auto object-contain"
               />
               <div className="border-l border-gray-200 pl-3 hidden sm:flex flex-col justify-center">
-                <span className="font-extrabold text-sm sm:text-base tracking-tight text-[#000000] uppercase">
+                <span className="font-display font-extrabold text-sm sm:text-base tracking-tight text-[#000000] uppercase">
                   WWF-India
                 </span>
                 <span className="text-[10px] font-semibold text-gray-500 uppercase tracking-widest">
@@ -108,7 +118,7 @@ export default function Header() {
                 <>
                   <Link
                     href="/workplace-giving"
-                    className={`text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 ${
+                    className={`${desktopNavLink} ${
                       pathname === "/workplace-giving"
                         ? "text-[#000000] border-[#000000]"
                         : "text-gray-700 border-transparent hover:text-[#000000]"
@@ -119,7 +129,7 @@ export default function Header() {
 
                   <Link
                     href="/workplace-giving/leaders-for-change"
-                    className={`text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 ${
+                    className={`${desktopNavLink} ${
                       pathname === "/workplace-giving/leaders-for-change"
                         ? "text-[#000000] border-[#000000]"
                         : "text-gray-700 border-transparent hover:text-[#000000]"
@@ -130,7 +140,7 @@ export default function Header() {
 
                   <Link
                     href="/workplace-giving/corporate-matching"
-                    className={`text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 ${
+                    className={`${desktopNavLink} ${
                       pathname === "/workplace-giving/corporate-matching"
                         ? "text-[#000000] border-[#000000]"
                         : "text-gray-700 border-transparent hover:text-[#000000]"
@@ -141,7 +151,7 @@ export default function Header() {
 
                   <Link
                     href="/"
-                    className="text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 text-gray-700 border-transparent hover:text-[#000000] flex items-center gap-1"
+                    className={`${desktopNavLink} text-gray-700 border-transparent hover:text-[#000000] flex items-center gap-1`}
                   >
                     <span>All Donations</span>
                     <i className="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-400" aria-hidden="true" />
@@ -152,7 +162,7 @@ export default function Header() {
                   {/* Workplace Giving */}
                   <Link
                     href="/workplace-giving"
-                    className={`text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 ${
+                    className={`${desktopNavLink} ${
                       pathname.startsWith("/workplace-giving")
                         ? "text-[#000000] border-[#000000]"
                         : "text-gray-700 border-transparent hover:text-[#000000]"
@@ -164,7 +174,7 @@ export default function Header() {
                   {/* Supporter Programme */}
                   <Link
                     href="/join-the-supporter-programme"
-                    className={`text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 ${
+                    className={`${desktopNavLink} ${
                       pathname === "/join-the-supporter-programme"
                         ? "text-[#000000] border-[#000000]"
                         : "text-gray-700 border-transparent hover:text-[#000000]"
@@ -178,7 +188,7 @@ export default function Header() {
                     <button
                       type="button"
                       onClick={() => setDonationsDropdownOpen(!donationsDropdownOpen)}
-                      className={`flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-wider transition-colors py-2 border-b-2 ${
+                      className={`${desktopNavLink} flex items-center gap-1.5 ${
                         donationsDropdownOpen ||
                         (!pathname.startsWith("/workplace-giving") &&
                           pathname !== "/" &&
@@ -205,7 +215,7 @@ export default function Header() {
                         role="menu"
                       >
                         <div className="px-4 py-2 border-b border-gray-100 bg-gray-50">
-                          <span className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">
+                          <span className="font-display text-sm font-bold text-gray-500 uppercase tracking-wider">
                             Conservation Causes
                           </span>
                         </div>
@@ -217,9 +227,9 @@ export default function Header() {
                               key={idx}
                               href={href}
                               onClick={() => setDonationsDropdownOpen(false)}
-                              className={`flex items-center justify-between px-4 py-2.5 text-sm transition-colors ${
+                              className={`${dropdownCauseLink} ${
                                 isActive
-                                  ? "bg-gray-100 text-[#000000] font-bold"
+                                  ? "bg-gray-100 text-[#000000]"
                                   : "text-gray-700 hover:bg-gray-50 hover:text-[#000000]"
                               }`}
                               role="menuitem"
@@ -275,12 +285,12 @@ export default function Header() {
             <div className="px-4 pt-3 pb-6 space-y-3">
               {pathname.startsWith("/workplace-giving") ? (
                 <>
-                  <div className="px-3 py-1 text-xs font-bold text-gray-500 uppercase tracking-wider">
+                  <div className="font-display px-3 py-1 text-sm font-bold text-gray-500 uppercase tracking-wider">
                     Workplace Giving Menu
                   </div>
                   <Link
                     href="/workplace-giving"
-                    className={`block px-3 py-2 rounded text-sm font-bold uppercase ${
+                    className={`${mobileNavLink} ${
                       pathname === "/workplace-giving" ? "bg-gray-100 text-black" : "text-gray-700 hover:bg-gray-50"
                     }`}
                   >
@@ -289,7 +299,7 @@ export default function Header() {
 
                   <Link
                     href="/workplace-giving/leaders-for-change"
-                    className={`block px-3 py-2 rounded text-sm font-bold uppercase ${
+                    className={`${mobileNavLink} ${
                       pathname === "/workplace-giving/leaders-for-change"
                         ? "bg-gray-100 text-black"
                         : "text-gray-700 hover:bg-gray-50"
@@ -300,7 +310,7 @@ export default function Header() {
 
                   <Link
                     href="/workplace-giving/corporate-matching"
-                    className={`block px-3 py-2 rounded text-sm font-bold uppercase ${
+                    className={`${mobileNavLink} ${
                       pathname === "/workplace-giving/corporate-matching"
                         ? "bg-gray-100 text-black"
                         : "text-gray-700 hover:bg-gray-50"
@@ -311,7 +321,7 @@ export default function Header() {
 
                   <Link
                     href="/"
-                    className="block px-3 py-2 rounded text-sm font-bold uppercase text-gray-700 hover:bg-gray-50"
+                    className={`${mobileNavLink} text-gray-700 hover:bg-gray-50`}
                   >
                     All WWF Causes
                   </Link>
@@ -330,7 +340,7 @@ export default function Header() {
                 <>
                   <Link
                     href="/"
-                    className={`block px-3 py-2 rounded text-sm font-bold uppercase ${
+                    className={`${mobileNavLink} ${
                       pathname === "/" ? "bg-gray-100 text-black" : "text-gray-700 hover:bg-gray-50"
                     }`}
                   >
@@ -339,7 +349,7 @@ export default function Header() {
 
                   <Link
                     href="/workplace-giving"
-                    className={`block px-3 py-2 rounded text-sm font-bold uppercase ${
+                    className={`${mobileNavLink} ${
                       pathname.startsWith("/workplace-giving")
                         ? "bg-gray-100 text-black"
                         : "text-gray-700 hover:bg-gray-50"
@@ -350,7 +360,7 @@ export default function Header() {
 
                   <Link
                     href="/join-the-supporter-programme"
-                    className={`block px-3 py-2 rounded text-sm font-bold uppercase ${
+                    className={`${mobileNavLink} ${
                       pathname === "/join-the-supporter-programme"
                         ? "bg-gray-100 text-black"
                         : "text-gray-700 hover:bg-gray-50"
@@ -360,7 +370,7 @@ export default function Header() {
                   </Link>
 
                   <div className="pt-2 border-t border-gray-100">
-                    <div className="px-3 py-1.5 text-xs font-bold text-gray-400 uppercase tracking-wider">
+                    <div className="font-display px-3 py-1.5 text-sm font-bold text-gray-400 uppercase tracking-wider">
                       Donation Causes
                     </div>
                     <div className="grid gap-1 pl-2">
@@ -371,9 +381,9 @@ export default function Header() {
                           <Link
                             key={idx}
                             href={href}
-                            className={`block px-3 py-2 rounded text-xs font-medium ${
+                            className={`${mobileCauseLink} ${
                               isActive
-                                ? "bg-gray-100 text-black font-bold"
+                                ? "bg-gray-100 text-black"
                                 : "text-gray-600 hover:bg-gray-50 hover:text-black"
                             }`}
                           >

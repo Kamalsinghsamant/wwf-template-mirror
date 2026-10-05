@@ -34,7 +34,24 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-opensans)", "Open Sans", "Arial", "sans-serif"],
+        /** WWF signature font — display / headlines (uppercase) */
+        display: [
+          "var(--font-wwf)",
+          "Arial Narrow",
+          "Arial Black",
+          "Arial",
+          "sans-serif",
+        ],
+        /** Open Sans — UI, subheads, captions, optional body on-screen */
+        sans: [
+          "var(--font-opensans)",
+          "Open Sans",
+          "Arial",
+          "Helvetica",
+          "sans-serif",
+        ],
+        /** Georgia — primary narrative body copy (system font) */
+        serif: ["Georgia", "Times New Roman", "Times", "serif"],
       },
       borderRadius: {
         xs: "4px",

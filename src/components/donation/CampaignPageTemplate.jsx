@@ -158,7 +158,7 @@ function CampaignPageTemplate({ slug }) {
                 <h2 className="text-xl sm:text-2xl font-black text-black mb-3">
                   {textSection.heading}
                 </h2>
-                <div className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                <div className="font-narrative text-gray-700 leading-relaxed text-sm sm:text-base">
                   <p>{textSection.content}</p>
                 </div>
               </div>
@@ -190,7 +190,7 @@ function CampaignPageTemplate({ slug }) {
                             <i className="fa-solid fa-check" aria-hidden="true" />
                           </div>
                         )}
-                        <p className="text-xs sm:text-sm text-gray-800 leading-relaxed font-medium">
+                        <p className="font-narrative text-xs sm:text-sm text-gray-800 leading-relaxed font-medium">
                           {item}
                         </p>
                       </div>
